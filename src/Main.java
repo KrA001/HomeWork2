@@ -3,6 +3,7 @@ import java.util.Random;
 public class Main {
     public static void main(String[] args){
 
+        System.out.println(generateRandomAge());
         System.out.println(getAgeAndTemperature(generateRandomAge(),-12));
         System.out.println(getAgeAndTemperature(24,-20));
         System.out.println(getAgeAndTemperature(16,21));
@@ -20,7 +21,7 @@ public class Main {
                return "оставайтесь дома";
            }
        }
-
+       // дополнительные дз
        public static int generateRandomAge(){
         // Random = генерирует случайное число
         Random random = new Random();
